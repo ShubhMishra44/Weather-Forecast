@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Weather Forecast</h1>
+        <!-- <div class="toggle-mode">
+            <span>🌞</span>
+            <label class="switch">
+                <input type="checkbox" id="modeToggle">
+                <span class="slider"></span>
+            </label>
+            <span>🌙</span>
+        </div> -->
+    </header>
+
+    <!-- Search Section -->
+    <div class="search-container">
+        <input type="text" id="cityInput" placeholder="Enter city name...">
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <!-- Weather Display -->
+    <div class="weather-container">
+        <h2 id="cityName">City Name</h2>
+        <h3 id="temperature">--°C</h3>
+        <p id="weatherDescription">--</p>
+        <img id="weatherIcon" src="assets/default.webp" alt="Weather Icon">
+    </div>
+
+    <!-- 7-Day Forecast (Horizontal Layout) -->
+    <div class="forecast-container">
+        <h3>5-Day Forecast</h3>
+        <div class="forecast">
+            <!-- Forecast cards will be added dynamically -->
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Weather Forecast | Designed by Shubh Mishra</p>
+    </footer>
+</body>
+</html>
+
+
+
+
